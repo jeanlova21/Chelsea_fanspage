@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Chelsea FC</title>
+    <link rel="stylesheet" href="stylecoba.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">Chelsea FC</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="indexcoba.html" class="nav-link">Sejarah</a></li>
+                <li><a href="pemain.html" class="nav-link">Pemain</a></li>
+                <li><a href="trofi.html" class="nav-link">Trofi</a></li>
+                <li><a href="kontak.html" class="nav-link active">Kontak</a></li>
+            </ul>
+            <div class="live-clock" id="liveClock">00:00:00</div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Hubungi Kami</h1>
+            <p class="page-subtitle fade-in">Mari Bergabung dengan Keluarga Blues</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Kirim Pesan</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+62 xxx xxxx xxxx">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Pilih subjek</option>
+                                <option value="membership">Keanggotaan</option>
+                                <option value="ticket">Tiket Pertandingan</option>
+                                <option value="merchandise">Merchandise</option>
+                                <option value="partnership">Kerjasama</option>
+                                <option value="media">Media & Pers</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2>Informasi Kontak</h2>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Alamat</h4>
+                            <p>Stamford Bridge<br>
+                            Fulham Road, London<br>
+                            SW6 1HS, United Kingdom</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>Umum: +44 (0)371 811 1955<br>
+                            Tiket: +44 (0)371 811 1905<br>
+                            Membership: +44 (0)371 811 1920</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@chelseafc.com<br>
+                            tickets@chelseafc.com<br>
+                            membership@chelseafc.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-details">
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 09.00 - 17.00<br>
+                            Sabtu: 09.00 - 13.00<br>
+                            Minggu & Hari Libur: Tutup</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media-section">
+                        <h4>Media Sosial</h4>
+                        <div class="social-links-large">
+                            <a href="https://www.facebook.com/share/1F9nHgQjSY/" class="social-link">
+                                <span class="social-icon">📘</span>
+                                <span class="social-name">Facebook</span>
+                            </a>
+                            <a href="https://x.com/ChelseaFC" class="social-link">
+                                <span class="social-icon">🐦</span>
+                                <span class="social-name">Twitter</span>
+                            </a>
+                            <a href="https://www.instagram.com/chelseafc?igsh=czI1MHpxcHdienE4" class="social-link">
+                                <span class="social-icon">📷</span>
+                                <span class="social-name">Instagram</span>
+                            </a>
+                            <a href="https://youtube.com/@chelseafc?si=dPsSWeqPt4N40gFp" class="social-link">
+                                <span class="social-icon">📺</span>
+                                <span class="social-name">YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Lokasi Stamford Bridge</h2>
+            <div class="map-wrapper">
+                <div class="map-placeholder">
+                    <div class="map-icon">🗺️</div>
+                    <p>Peta interaktif akan dimuat di sini</p>
+                    <a href="https://www.google.com/maps/place/Stamford+Bridge/@51.4816587,-0.193269,17z" target="_blank" class="btn-secondary">Buka di Google Maps</a>
+                </div>
+            </div>
+            
+            <div class="location-info">
+                <h3>Cara Menuju Stamford Bridge</h3>
+                <div class="transport-grid">
+                    <div class="transport-item">
+                        <div class="transport-icon">🚇</div>
+                        <h4>Underground (Tube)</h4>
+                        <p>Fulham Broadway Station<br>(District Line)</p>
+                    </div>
+                    <div class="transport-item">
+                        <div class="transport-icon">🚌</div>
+                        <h4>Bus</h4>
+                        <p>Rute: 11, 14, 211, 414<br>Turun di Fulham Road</p>
+                    </div>
+                    <div class="transport-item">
+                        <div class="transport-icon">🚂</div>
+                        <h4>Overground</h4>
+                        <p>West Brompton Station<br>10 menit jalan kaki</p>
+                    </div>
+                    <div class="transport-item">
+                        <div class="transport-icon">🚗</div>
+                        <h4>Mobil</h4>
+                        <p>Parkir terbatas<br>Disarankan transport umum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Newsletter Section -->
+    <section id="contact" class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Bergabung dengan Keluarga Blues</h2>
+                <p>Dapatkan berita terbaru, update transfer, dan jadwal pertandingan langsung ke email Anda!</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Masukkan email Anda" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan Umum</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Bagaimana cara membeli tiket pertandingan?</h4>
+                    <p>Tiket dapat dibeli melalui website resmi Chelsea FC atau langsung di box office Stamford Bridge. Member mendapat prioritas pembelian tiket.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah ada tur stadion?</h4>
+                    <p>Ya, Stamford Bridge menawarkan tour stadion setiap hari. Anda dapat mengunjungi ruang ganti, terowongan pemain, dan museum Chelsea.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Bagaimana cara menjadi member?</h4>
+                    <p>Keanggotaan dapat didaftarkan secara online melalui website resmi. Ada beberapa jenis membership dengan benefit berbeda.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Di mana membeli merchandise resmi?</h4>
+                    <p>Merchandise resmi tersedia di Chelsea Megastore di Stamford Bridge dan online store resmi chelseamegastore.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Home -->
+    <section class="back-section">
+        <div class="container">
+            <a href="trofi.html" class="btn-primary">← Kembali ke halaman seblumnya</a>
+        </div>
+    <section class="back-section">
+        <div class="container">
+            <a href="index.html" class="btn-primary">← Kembali ke Home</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Chelsea FC</h4>
+                    <p>The Pride of London sejak 1905. Keep the Blue Flag Flying High!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pemain.html">Pemain</a></li>
+                        <li><a href="trofi.html">Trofi</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1F9nHgQjSY/" class="social-icon">📘</a>
+                        <a href="https://x.com/ChelseaFC" class="social-icon">🐦</a>
+                        <a href="https://www.instagram.com/chelseafc?igsh=czI1MHpxcHdienE4" class="social-icon">📷</a>
+                        <a href="https://youtube.com/@chelseafc?si=dPsSWeqPt4N40gFp" class="social-icon">📺</a>
+                    </div>
+                </div>
+            </div>
+           <div class="footer-bottom">
+                <p>&copy; Fathur Rohman 01SIFP014 2026 Chelsea Football Club. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
